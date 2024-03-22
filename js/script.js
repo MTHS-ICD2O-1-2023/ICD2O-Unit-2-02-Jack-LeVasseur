@@ -3,15 +3,11 @@
 // Created by: Jack LeVasseur
 // Created on: March 7 2024
 // This file contains the JS functions for index.html
-/ This file contains the JS functions for index.html
 
 /**
  * Do basic math.
  */
 function doMathClicked() {
-  document.getElementById("add-math").innerHTML = "<p>6 + 5 = " + (6 + 5) + "</p>"
-  document.getElementById("subtract-math").innerHTML = "<p>7 - 3 =  " + (7 - 3) + "</p>"  
-  document.getElementById("multiply-math").innerHTML = "<p>3 + 4 × 2 = " + (3 + 4 * 2) + "</p>" 
-  document.getElementById("divide-math").innerHTML = "<p>(4 ÷ 2) + 3 = " + (4 / 2 + 3) + "</p>"
-  document.getElementById("exponent-math").innerHTML = "<p>5 + 2³ = " + (5 + 2 ** 3) + "</p>"
+  document.getElementById("subtract-math").innerHTML = "<p>The area is cm2 =  " + (30 - 15) + "</p>"  
+  document.getElementById("multiply-math").innerHTML = "<p>The permiter is cm = " + (4 + 4 * 2 ) + "</p>" 
 }
